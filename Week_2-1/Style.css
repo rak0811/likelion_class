@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    font-family: fantasy;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: url(./BG.jpg),
+    linear-gradient(rgba(0, 0, 0, 100), rgba(0, 0, 0, 10));
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: white;
+
+}
+
+main h1 {
+    font-size: 8rem;
+}
+
+main h3 { 
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+main h6 { 
+    font-size: 2rem
+}
+
+.line { 
+    margin-top: 1rem;
+    width: 50vw;
+    border: 0.02px solid white;
+    background-color: white;
+}
